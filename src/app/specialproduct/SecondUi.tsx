@@ -49,7 +49,7 @@ const features = [
             </h2>
             <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Simple productivity</p>
             <p className="mt-4 text-gray-500">
-              Focus allows you to plan 10 daily tasks, while also thinking ahead about what's next. Forget distracting
+              Focus allows you to plan 10 daily tasks, while also thinking ahead about what&apos;s next. Forget distracting
               digital apps and embrace these small, sturdy pieces of paper.
             </p>
           </div>

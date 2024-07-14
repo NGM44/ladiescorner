@@ -1,7 +1,6 @@
-`use client`;
+"use client";
 import React, { Fragment } from "react";
 import { Disclosure, Menu, Transition } from "@headlessui/react";
-import { ChevronDownIcon, FunnelIcon } from "@heroicons/react/20/solid";
 
 const filters = {
   price: [
@@ -52,7 +51,7 @@ export default function ProductFilter() {
           Workspace
         </h1>
         <p className="mx-auto mt-4 max-w-xl text-base text-gray-500">
-          The secret to a tidy desk? Don't get rid of anything, just put it in
+          The secret to a tidy desk? Don&apos;t get rid of anything, just put it in
           really really nice looking containers.
         </p>
       </div>

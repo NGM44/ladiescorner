@@ -62,7 +62,8 @@ export default function Example() {
               className="divide-y divide-gray-200 border-b border-t border-gray-200"
             >
               {products.map((product, productIdx) => (
-                <ProductItem product={product} productIdx={productIdx} />
+                <p key={productIdx}>{productIdx}</p>
+                // <ProductItem key={productIdx} product={product} productIdx={productIdx} />
               ))}
             </ul>
           </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import {
   Menu,
   ShoppingBag,
@@ -63,7 +64,7 @@ const LadiesCornerShop = () => {
       <section className="py-24 bg-gradient-to-b from-pink-100 sm:block hidden">
         <div className="container mx-auto">
           <div className="bg-white p-4 m-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
-            <img
+            <Image
               src={"/banner.jpeg"}
               alt={"banner"}
               className="w-full h-80 rounded-lg mb-6"

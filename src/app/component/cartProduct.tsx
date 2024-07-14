@@ -21,7 +21,7 @@ interface ProductItemProps {
   productIdx: number; // Assuming this is provided as a prop
 }
 
-const ProductItem: React.FC<ProductItemProps> = ({ product, productIdx }) => {
+const ProductItem: React.FC<ProductItemProps> = ({ product, productIdx }:{ product:any, productIdx:any }) => {
   return (
     <li key={product.id} className="flex py-6 sm:py-10">
       <div className="flex-shrink-0">
