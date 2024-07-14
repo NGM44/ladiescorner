@@ -52,7 +52,7 @@ const LadiesCornerShop = () => {
             personal style. Discover the perfect blend of elegance and comfort.
           </p>
           <a
-            href="https://chat.whatsapp.com/your-group-link"
+            href="https://chat.whatsapp.com/GUjoodzr5Dk9AuzWCmcBOi"
             className="bg-[#07a942] animate-pulse hover:bg-pink-600 text-white font-bold py-3 px-8 rounded-full inline-flex items-center transition duration-300 ease-in-out transform hover:scale-105"
           >
             <span>Join Our WhatsApp Group</span>
@@ -151,7 +151,7 @@ const LadiesCornerShop = () => {
       </section>
 
       {/* Floating Call Button */}
-      <FloatingDirectionButton directionsUrl="tel:9902668366" />
+      <FloatingDirectionButton />
       <FloatingCallButton phoneNumber="tel:9902668366" />
     </div>
   );
@@ -196,9 +196,9 @@ const FloatingCallButton = ({ phoneNumber }: { phoneNumber: any }) => (
     </div>
   </a>
 );
-const FloatingDirectionButton = ({ directionsUrl }: { directionsUrl: any }) => (
+const FloatingDirectionButton = () => (
   <a
-    href={directionsUrl}
+    href={"https://maps.app.goo.gl/y7UknYPM2B23gkow8"}
     target="_blank"
     rel="noopener noreferrer"
     className="fixed bottom-6 right-6 bg-purple-500 hover:bg-purple-600 text-white rounded-full p-4 shadow-lg transition duration-300 ease-in-out transform hover:scale-110 z-50"
