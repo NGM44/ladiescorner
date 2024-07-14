@@ -22,7 +22,7 @@ const LadiesCornerShop = () => {
             <h1 className="text-3xl font-extrabold tracking-tight">
               Ladies Corner
             </h1>
-            <Menu className="md:hidden w-6 h-6" />
+            {/* <Menu className="md:hidden w-6 h-6" />
             <nav className="hidden md:flex space-x-6">
               {["Home", "Clothing", "Tailoring", "Stationery", "Cosmetics"].map(
                 (item) => (
@@ -35,7 +35,7 @@ const LadiesCornerShop = () => {
                   </a>
                 )
               )}
-            </nav>
+            </nav> */}
           </div>
         </div>
       </header>
@@ -61,7 +61,7 @@ const LadiesCornerShop = () => {
         </div>
       </section>
 
-      <section className="py-24 bg-gradient-to-b from-pink-100 sm:block hidden">
+      {/* <section className="py-24 bg-gradient-to-b from-pink-100 sm:block hidden">
         <div className="container mx-auto">
           <div className="bg-white p-4 m-8 rounded-xl shadow-lg transition duration-300 ease-in-out transform hover:scale-105">
             <Image
@@ -71,7 +71,7 @@ const LadiesCornerShop = () => {
             />
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Image Gallery */}
       <section className="py-24 bg-gradient-to-b from-pink-100 to-white">
